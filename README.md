@@ -71,11 +71,13 @@ The app is **free to download** — no ads, no premium tier, no in-app purchases
 
 | Source | Notes |
 |---|---|
-| 🌐 **[Official site](https://firetvremoteproultra.vercel.app)** | Always the latest stable build |
-| 📦 **Uptodown** | Search *"Fire TV Remote Ultra Pro Max"* on [uptodown.com](https://en.uptodown.com) — independent app store, no Google account required |
-| 🏪 **GitHub Releases** *(coming soon)* | This repo's Releases tab, once signed builds are wired up |
+| 📦 **Uptodown** *(canonical APK host)* | **[Download on Uptodown →](https://en.uptodown.com)** — the only place the official APK is hosted. Independent app store, no Google account required |
+| 🌐 **[Official site](https://firetvremoteproultra.vercel.app)** | **Advertising only.** The site does **not** host the APK — it just advertises the app and links directly to the Uptodown page |
+| 🏪 **GitHub Releases** | This repo's [Releases tab](../../releases) — release notes + changelog. APK is *not* attached here either; we point you to Uptodown |
 
-> **Note:** This app is not affiliated with, endorsed by, or sponsored by Amazon. "Fire TV" is a trademark of Amazon.com, Inc.
+> ⚠️ **Where to get the APK:** Only from **Uptodown**. The official website (`firetvremoteproultra.vercel.app`) advertises the app and shares the Uptodown link — it does **not** host the APK file. Do not install APKs from any other source.
+>
+> **Not affiliated with, endorsed by, or sponsored by Amazon.** "Fire TV" is a trademark of Amazon.com, Inc.
 
 ---
 

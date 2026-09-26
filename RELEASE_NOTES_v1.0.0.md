@@ -44,13 +44,14 @@ The first public release of **Fire TV Remote Ultra Pro Max** — a no-ADB remote
 
 > **Filename:** `FireTvRemoteUltraProMax-v1.0.0.apk`
 
-**Free download — only from Uptodown.** This is the canonical source for the APK.
+**Free download — APK is hosted ONLY on Uptodown.** This is the canonical source for the APK.
 
-👉 **[Download on Uptodown](https://en.uptodown.com)** (search *"Fire TV Remote Ultra Pro Max"*)
+👉 **[Download on Uptodown →](https://en.uptodown.com)** (search *"Fire TV Remote Ultra Pro Max"*)
 
-🌐 **Official site (advertising only, no APK hosting):** [firetvremoteproultra.vercel.app](https://firetvremoteproultra.vercel.app) — links straight to the Uptodown page.
+🌐 **Official site (advertising only, no APK hosting):** [firetvremoteproultra.vercel.app](https://firetvremoteproultra.vercel.app)
+The official website does **not** host the APK file. It advertises the app and shares the Uptodown download link only.
 
-> ⚠️ The official website does **not** host the APK file. It advertises the app and shares the Uptodown download link only. Do not install APKs from any other source.
+> ⚠️ **Only install from Uptodown.** The official website advertises and links to Uptodown — it does not host the APK. This GitHub release also does not include the APK as an asset.
 
 ---
 
