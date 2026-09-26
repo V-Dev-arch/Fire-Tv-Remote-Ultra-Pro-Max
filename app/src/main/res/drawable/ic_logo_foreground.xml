@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Concept unchanged (signal reaching a play mark, reads as both
+         "remote" and "streaming" at a glance) but with a real teal-to-ember
+         gradient instead of flat single-tone fill, and bolder strokes so it
+         reads clearly at small launcher sizes. -->
+
+    <!-- Outer signal arc -->
+    <path
+        android:pathData="M28,76 A36,36 0 0 1 28,32"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="20" android:startY="20"
+                android:endX="45" android:endY="88"
+                android:startColor="#22E7BE"
+                android:endColor="#22E7BE"
+                android:centerColor="#22E7BE" />
+        </aapt:attr>
+    </path>
+
+    <!-- Inner signal arc -->
+    <path
+        android:pathData="M39,67 A23,23 0 0 1 39,41"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="30" android:startY="35"
+                android:endX="45" android:endY="73"
+                android:startColor="#4DEBCB"
+                android:endColor="#22E7BE" />
+        </aapt:attr>
+    </path>
+
+    <!-- Play triangle core -->
+    <path android:pathData="M47,39 L76,54 L47,69 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="47" android:startY="39"
+                android:endX="76" android:endY="69"
+                android:startColor="#FFB27A"
+                android:endColor="#FF8A4C" />
+        </aapt:attr>
+    </path>
+</vector>

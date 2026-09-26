@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  IMPORTANT CORRECTION vs. a first draft of this file: Android's Network
+  Security Config `domain-config` only matches literal hostnames/domains
+  (with optional subdomain wildcarding) — it does NOT support CIDR ranges.
+  An entry like "192.168.0.0/16" here would silently match nothing, since
+  Android compares it as a literal domain string, not a subnet. There is no
+  NSC mechanism to say "allow cleartext for any private-LAN IP" — IPs are
+  dynamic per user's network, so they can't be enumerated ahead of time.
+
+  Real mitigation: cleartext is enabled app-wide (see AndroidManifest's
+  usesCleartextTraffic="true"), and the actual guarantee that this is safe
+  comes from FireTvClient/SsdpDiscovery only ever connecting to (a) the
+  multicast SSDP address, or (b) an IP the user explicitly discovered or
+  entered for their own Fire TV — never an arbitrary internet host. All
+  other traffic (Firebase, Supabase, the Gemini edge function) is HTTPS by
+  construction, since those SDKs don't expose a cleartext option at all.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

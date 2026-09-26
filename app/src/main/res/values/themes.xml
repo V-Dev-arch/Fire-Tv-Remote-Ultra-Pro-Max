@@ -1,0 +1,11 @@
+<resources>
+    <!-- Compose owns actual theming (see ui/theme/Theme.kt); this only sets
+         the launch background so there's no flash of the wrong colour before
+         Compose takes over. Light here, dark in values-night/. -->
+    <style name="Theme.FireTvRemoteUltraProMax" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F4F6F8</item>
+        <item name="android:statusBarColor">#F4F6F8</item>
+        <item name="android:navigationBarColor">#F4F6F8</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
